@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    width: 200px;
+    height: 90vh;
+    background-color: lightcyan;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.display {
+    outline: 2px solid crimson;
+    background-color: aliceblue;
+    width: 190px;
+    height: 200px;
+}
+
+.numbers {
+    flex:1;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#container > .number {
+    flex: 1;
+}
+
+.number > button {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid crimson;
+    color: white;
+    background-color: cadetblue
+}
+.number > button:hover{
+    background-color: aquamarine;
+}
+
+.number > button:active{
+    background-color: aqua;
+}
+
+#cero {
+    width: 140px;
+}
+
+.operator > button {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid crimson;
+    color: white;
+    background-color: cadetblue
+}
+
+.operator > button:hover{
+    background-color: aquamarine;
+}
+
+.operator > button:active{
+    background-color: aqua;
+}
+
+
